@@ -1,0 +1,5 @@
+
+GET     /                                       me.khazaddum.application.HomeController.index
+
+GET     /account/:no                            me.khazaddum.application.AccountController.getAccount( no: String )
+GET     /setting/rateOfInterest                 me.khazaddum.application.AccountController.getRateOfInterest
