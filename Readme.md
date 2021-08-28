@@ -1,4 +1,4 @@
-# play-framework
+# play-fm-scala
 
 Testdrive: REST API using the framework
 

@@ -1,6 +1,6 @@
 import play.sbt.PlayImport
 
-name := "play-framework"
+name := "play-fm-scala"
 organization := "me.khazaddum"
 version := "1.0-SNAPSHOT"
 scalaVersion := "2.12.8"
@@ -29,7 +29,7 @@ libraryDependencies ++= Seq(
 // assembly
 test in assembly := {}
 target in assembly := file( "target" )
-assemblyJarName in assembly := "play-framework.jar"
+assemblyJarName in assembly := "play-fm-scala.jar"
 assemblyMergeStrategy in assembly := {
   case PathList( "META-INF", xs @ _* ) => MergeStrategy.discard
   case x => MergeStrategy.first
